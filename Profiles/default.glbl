@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'localhost'</initValue>
+      <name>databaseAddress</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>3306</initValue>
+      <name>databasePort</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'employees'</initValue>
+      <name>databaseSchemaName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>To create encrypted value, you could click 'Help' menu -> 'Encrypt Text'</description>
+      <initValue>'CZf577IsLwA='</initValue>
+      <name>databaseEncryptedPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'root'</initValue>
+      <name>databaseUser</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

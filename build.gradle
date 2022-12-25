@@ -1,0 +1,33 @@
+plugins {
+  id 'java'
+  id "com.katalon.gradle-plugin" version "0.0.7"
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencies {
+  // sample dependencies
+  // rest-assured
+  // compile 'io.rest-assured:rest-assured:3.2.0'
+  // JsonPath
+  // compile 'io.rest-assured:json-path:3.2.0'
+  // XmlPath
+  // compile 'io.rest-assured:json-path:3.2.0'
+  // JSON Schema Validation
+  // compile 'io.rest-assured:json-schema-validator:3.2.0'
+
+  // https://mavenlibs.com/maven/dependency/mysql/mysql-connector-java
+  implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.31'
+}
+
+configurations {
+    externalLib.extendsFrom(implementation)
+}
+
+task copyLibs(type: Copy){
+    from configurations.externalLib{
+        into './Drivers'
+    }
+}
