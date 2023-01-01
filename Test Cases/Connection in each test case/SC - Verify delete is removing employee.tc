@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SC - Verify delete is removing employee</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ef49e19d-6e50-4d75-9b2d-36c26ccacdec</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>30736491-324b-4b21-a861-1075d45e21aa</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>30736491-324b-4b21-a861-1075d45e21aa</id>
+      <masked>false</masked>
+      <name>empNo</name>
+   </variable>
+</TestCaseEntity>

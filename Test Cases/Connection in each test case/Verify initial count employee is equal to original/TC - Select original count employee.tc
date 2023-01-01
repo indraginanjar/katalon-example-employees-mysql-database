@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - Select original count employee</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5634e284-c764-46d3-9814-8647219c111b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e320a58d-cf1c-4297-86ed-006fcf2f3fee</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>e320a58d-cf1c-4297-86ed-006fcf2f3fee</id>
+      <masked>false</masked>
+      <name>employeeCountOnOriginalSampleData</name>
+   </variable>
+</TestCaseEntity>

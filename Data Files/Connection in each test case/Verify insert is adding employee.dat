@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Verify insert is adding employee</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>8ac246a2-0bc5-4cac-8fe5-0332a7cfec46</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>500000 1990-03-17 Annie Jones F 2010-12-25</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>emp_no</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>birth_date</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>first_name</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>last_name</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>gender</name>
+      <size>1</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>5</columnIndex>
+      <name>hire_date</name>
+      <size>1</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

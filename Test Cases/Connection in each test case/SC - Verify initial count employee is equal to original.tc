@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SC - Verify initial count employee is equal to original</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>471ea67d-37f8-4c35-beee-dded9c53bd61</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>939266ee-5ca9-4578-a8e1-672ca09ee265</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>939266ee-5ca9-4578-a8e1-672ca09ee265</id>
+      <masked>false</masked>
+      <name>originalEmployeeCount</name>
+   </variable>
+</TestCaseEntity>

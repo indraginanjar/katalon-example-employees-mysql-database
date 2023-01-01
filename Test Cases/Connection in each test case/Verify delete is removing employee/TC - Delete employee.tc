@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC - Delete employee</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f19bd1cd-014b-49cc-8d66-52006cdf6820</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c9ad1836-a281-4044-9eb3-0c77ce909747</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>c9ad1836-a281-4044-9eb3-0c77ce909747</id>
+      <masked>false</masked>
+      <name>empNo</name>
+   </variable>
+</TestCaseEntity>
