@@ -10,8 +10,11 @@ Silahkan untuk langsung dilihat pada halaman groovy tiap test case untuk melihat
 
 Berikut ini adalah arti dari singkatan-singtakan yang dituliskan pada nama file:
 
-SC = Scenario
-TC = Test Case
+* SC = Scenario
+
+* TC = Test Case
+
+* TS = Test Suite
 
 ## Requirements
 
@@ -37,6 +40,7 @@ Database `employees` sama persis dengan versi originalnya saat Katalon test dija
 
 ## Layout
 
+```yaml
 Test Cases:
     Pengelompokkan (nama test suite atau nama lainnya):
         - SC - Scenario 1
@@ -59,6 +63,7 @@ Data Files:
     Pengelompokkan:
         - Scenario 1 (internal test data)
         - Scenario 2 (internal test data)
+```
 
 ## Data Binding
 
