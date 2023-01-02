@@ -33,7 +33,7 @@ Connection databaseConnection = DriverManager.getConnection(databaseUrl, GlobalV
 
 Statement sqlStatement = databaseConnection.createStatement()
 
-String employeeUpdate = "UPDATE `employees` SET birth_date='1988-03-17' WHERE emp_no=500000"
+String employeeUpdate = "UPDATE `employees` SET birth_date='$newBirthDate' WHERE emp_no=$empNo"
 
 int affectedRowCount = sqlStatement.executeUpdate(employeeUpdate)
 
